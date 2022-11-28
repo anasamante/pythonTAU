@@ -65,5 +65,5 @@ print("apple" in second_fruit)  # this will return False, it is not an exact mat
 print("apples" in second_fruit)  # this will return True
 print(second_fruit.count("apples"))  # this will return 3 item is there 3 times
 print(second_fruit.count("apple"))  # this will return 0 the item does not exist
-print(second_fruit.index("apples")) # this will return 1, The first instance of “apples” appears as the second item
+print(second_fruit.index("apples"))  # this will return 1, The first instance of “apples” appears as the second item
 # in the list.
