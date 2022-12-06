@@ -44,12 +44,14 @@ Lee = Person("Lee", "Williams", 22, status=True)
 # example child class Enemy
 class Enemy(Person):
     """all attributes, inherited and new, the methods created below are not available on the person class"""
+
     def __init__(self, weapon, firstname, lastname, health, status):
         """Use the super method, to initialize attributes of the parent class"""
         super().__init__(firstname, lastname, health, status)
         """the attribute is new in the Enemy Object"""
         self.weapon = weapon
 
+    # Method with the same name as in the parent class / method overriding
     def introduce(self):
         print("You are my mortal enemy!!!")
 
